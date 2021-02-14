@@ -88,7 +88,8 @@ GET '/categories'
 '6' : "Sports"}
 
 ```
-
+## Endpoint
+|Method|Endpoint|Description|RequestArguments|
 
 ## Testing
 To run the tests, run
