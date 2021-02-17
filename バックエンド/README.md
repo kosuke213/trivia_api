@@ -91,13 +91,13 @@ GET '/categories'
 ## Endpoint
 |Method|Endpoint|Description|RequestArguments|
 |-----|-----|-----|-----| 
-| GET | /categories | The key is the ID. Get the dictionary of categories where the value is a string | None |
-| GET | /questions | TD1 | None |
-| DELETE | /questions/<int:question_id> | TD1 | QuestionID |
-| POST | /questions | TD1 | None |
-| POST | /questions/search | TD1 | None |
-| GET | /categories/<int:category_id>/questions | TD1 | CategoryID |
-| POST | /quizzes | TD1 | None |
+| GET | /categories | The key is the ID. Get the dictionary of categories where the value is a string. | None |
+| GET | /questions | Get all the questions. Use pagination to display 10 questions at once. | None |
+| DELETE | /questions/<int:question_id> | Remove question from the database based on the ID. | QuestionID |
+| POST | /questions | Add a new question to the database. | None |
+| POST | /questions/search | Get questions based on your search. Partial search is also possible. | None |
+| GET | /categories/<int:category_id>/questions | Gets questions based on category | CategoryID |
+| POST | /quizzes | Get the question to play the quiz. Play all quiz questions or play a specific category. | None |
 ## Testing
 To run the tests, run
 ```
