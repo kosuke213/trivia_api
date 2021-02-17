@@ -1,4 +1,4 @@
-# Full Stack API Final Project 1111
+# Full Stack API Final Project
 
 ## Full Stack Trivia
 
