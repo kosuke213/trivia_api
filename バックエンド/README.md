@@ -90,7 +90,14 @@ GET '/categories'
 ```
 ## Endpoint
 |Method|Endpoint|Description|RequestArguments|
-
+|-----|-----|-----|-----| 
+| GET | /categories | The key is the ID. Get the dictionary of categories where the value is a string | None |
+| GET | /questions | TD1 | None |
+| DELETE | /questions/<int:question_id> | TD1 | QuestionID |
+| POST | /questions | TD1 | None |
+| POST | /questions/search | TD1 | None |
+| GET | /categories/<int:category_id>/questions | TD1 | CategoryID |
+| POST | /quizzes | TD1 | None |
 ## Testing
 To run the tests, run
 ```
